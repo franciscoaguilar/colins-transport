@@ -34,11 +34,6 @@
     <![endif]-->
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader"></div>
-
-
-
 
 	<!-- Header -->
     <nav class="navbar navbar-default header_aera" id="main_navbar">
@@ -258,23 +253,23 @@
         <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
     </div>
     <div class= "row">
-      <form name="sentMessage" novalidate>
+      <form name="sentMessage"  action="https://formspree.io/0667034@my.scccd.edu" method="POST" novalidate>
           <div class="row contact_row">
             <div class="col-md-4">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name" required="required">
+                <input name="name" type="text" class="form-control" placeholder="Name" required="required">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
-                <input type="text" novalidate class="form-control" placeholder="Phone Number">
+                <input name="phone number" type="text" novalidate class="form-control" placeholder="Phone Number">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email" required>
+                <input name="email" type="email" class="form-control" placeholder="Email" required>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
