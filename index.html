@@ -253,11 +253,13 @@
         <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
     </div>
     <div class= "row">
-      <form name="sentMessage"  action="https://formspree.io/0667034@my.scccd.edu" method="POST" novalidate>
+      <form name="sentMessage"  id = "contactform" method="POST" novalidate>
           <div class="row contact_row">
             <div class="col-md-4">
               <div class="form-group">
+                <input type="text" name="_gotcha" style="display:none" />
                 <input name="name" type="text" class="form-control" placeholder="Name" required="required">
+<input type="hidden" name="_subject" value="Website contact" />
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -320,5 +322,7 @@
 <script src="vendors/stellar/jquery.stellar.js"></script>
 <!-- Theme JS -->
 <script src="js/theme.js"></script>
+<!-- form -->
+<script type="text/javascript" src= "js/form.js"></script>
 </body>
 </html>
